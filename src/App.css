@@ -6,30 +6,6 @@
 .App_container {
   width: 100%;
 }
-.main_container {
-  background-color: #f3f4f6;
-  height: 100vh;
-  margin: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-.main_container-header {
-  width: 90%;
-  height: 60px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  margin: 40px;
-}
-.btn-header {
-  background-color: #FB9300;
-  border: none;
-  width: 122px;
-  height: 40px;
-  border-radius: 5px;
-  color: #ffffff;
-  font-weight: bold;
-  margin: 10px;
-  cursor: pointer;
+.pages {
+  margin: 20px;
 }
