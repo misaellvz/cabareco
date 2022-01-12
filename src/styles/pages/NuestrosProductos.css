@@ -12,7 +12,6 @@
   margin-bottom: 80px;
 }
 .nuestros_productos-cardContainer {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +26,18 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  transition: 450ms;
+  transform-origin: center left;
+}
+.nuestros_productos-card:hover ~ .nuestros_productos-card {
+  transform: translate3d(50px, 0, 0);
+}
+.nuestros_productos-cardContainer:hover .nuestros_productos-card {
+  opacity: 0.3;
+}
+.nuestros_productos-cardContainer:hover .nuestros_productos-card:hover {
+  transform: scale(1.2);
+  opacity: 1;
 }
 .nuestros_productos-img {
   width: 220px;
