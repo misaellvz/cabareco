@@ -5,7 +5,7 @@
   padding: 20px;
   margin: 20px;
   width: 100%;
-  height: calc(100vh - 40px);
+  /* height: calc(100vh - 40px); */
 }
 .especialidades_container-aside h1 {
   font-size: 60px;
@@ -118,6 +118,9 @@
   height: 400px;
   background-color: black;
 }
+.especialidades_container-label {
+  position: relative;
+}
 .especialidades_container-yellowCard {
   width: 300px;
   height: 450px;
@@ -128,6 +131,6 @@
 .hambuguer {
   width: 740px;
   position: absolute;
-  top: calc(100vh + 30px);
-  right: 60px;
+  top: 0px;
+  right: 0px;
 }

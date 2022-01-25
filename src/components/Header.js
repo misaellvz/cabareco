@@ -3,6 +3,7 @@ import logo from "../assets/Cabareco-logo-removebg-preview.png";
 import "../styles/components/Header.css";
 
 const Header = () => {
+  const whatsappText = "!Hola! Quiero una...";
   return (
     <header className="main_container-header">
       <ul className="main_container-ul">
@@ -19,7 +20,7 @@ const Header = () => {
           <a href="#Precios">Precios</a>
         </li>
       </ul>
-      <a href="https://wa.me/595983737623">
+      <a href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
         <button className="btn-header">Haz tu pedido</button>
       </a>
     </header>

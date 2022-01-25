@@ -33,6 +33,7 @@
 .hero_aside {
   margin: 20px;
   padding: 20px;
+  position: relative;
 }
 .hero_aside-commentLeft {
   display: flex;
@@ -42,8 +43,8 @@
   background-color: white;
   border-radius: 20px;
   position: absolute;
-  top: calc(100vh - 400px);
-  left: 800px;
+  top: 350px;
+  left: -50px;
 }
 .hero_aside-commentRight {
   display: flex;
@@ -53,8 +54,8 @@
   background-color: white;
   border-radius: 20px;
   position: absolute;
-  top: calc(100vh - 800px);
-  right: 40px;
+  top: 50px;
+  right: -50px;
 }
 .hero_aside-commentRight-img {
   width: 60px;
@@ -75,15 +76,6 @@
   height: 580px;
   border-radius: 80px;
   object-fit: cover;
-}
-@media screen and (min-width: 1024px) {
-  .hero_aside-commentLeft {
-    left: calc(100% - 600px);
-  }
-  .hero_aside-commentRight {
-    top: calc(100vh - 600px);
-    right: 30px;
-  }
 }
 
 @media screen and (min-device-width: 768px) {

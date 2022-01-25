@@ -2,7 +2,7 @@
 import './App.css';
 import Especialidades from "./components/Especialidades";
 import NuestrosProductos from "./components/NuestrosProductos";
-import Precios from "./components/Precios";
+import SaboresClasicos from "./components/SaboresClasicos";
 import Hero from './pages/Hero';
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <div className="App_container">
       <div className='pages'>
         <Hero/>
-        <Especialidades/>
         <NuestrosProductos/>
-        <Precios/>
+        <SaboresClasicos/>
+        <Especialidades/>
       </div>
     </div>
   );
