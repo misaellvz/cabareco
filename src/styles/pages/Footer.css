@@ -1,0 +1,33 @@
+.footer_main-container {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+.footer-logo {
+  width: 120px;
+  height: 90px;
+  border-radius: 50%;
+}
+.footer-p {
+  color: white;
+}
+.footer-span {
+  color: white;
+}
+.social-media-container {
+  display: flex;
+  justify-content: space-around;
+}
+.instagram {
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,122 @@
+.bebidas_main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bebidas-h2 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.bebidas-h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #808080;
+  margin-bottom: 60px;
+}
+.bebidas-backgroundCard-black {
+  width: 230px;
+  height: 350px;
+  border-radius: 60px;
+  margin: 0 0 10px 0;
+  background-color: #fcb54e;
+  transform: rotate(65deg);
+  position: relative;
+  top: -15px;
+  left: 150px;
+}
+.bebidas-card-white {
+  width: 220px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  left: -53px;
+  bottom: -12px;
+  transform: rotate(-65deg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.bebidas-backgroundCard-yellow {
+  background-color: #fcb54e;
+  width: 230px;
+  height: 350px;
+  border-radius: 60px;
+  margin: 0 0 10px 0;
+  transform: rotate(65deg);
+  position: relative;
+  top: -15px;
+  left: 150px;
+}
+.bebidas-card-black {
+  width: 220px;
+  height: 200px;
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  left: -53px;
+  bottom: -12px;
+  transform: rotate(-65deg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.bebidas-card-h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.bebidas-card-h4 {
+  color: #fb9300;
+  font-size: 32px;
+  font-weight: bold;
+}
+.bebidas-card-h3-black {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.bebidas-card-p-black {
+  color: #808080;
+  font-size: 20px;
+}
+.bebidas-card-h4-black {
+  color: #fcb54e;
+  font-size: 26px;
+  font-weight: bold;
+}
+.bebidas-card-span-container {
+  width: 100px;
+  height: 50px;
+  background-color: #c9c9c9;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bebidas-card-span {
+  color: #fc4e4e;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bebidas-card-span-black-container {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bebidas-card-span-black {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

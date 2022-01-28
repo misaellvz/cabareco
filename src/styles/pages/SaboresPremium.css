@@ -1,4 +1,4 @@
-.nuestros_productos {
+.sabores-premium {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -6,18 +6,18 @@
   flex-direction: column;
   margin: 100px 0 0 0;
 }
-.nuestros_productos-headline {
+.sabores-premium-headline {
   font-size: 60px;
   font-weight: bold;
   margin-bottom: 40px;
 }
-.nuestros_productos-headlineSub {
-  font-size: 40px;
-  font-weight: 700;
-  color: #808080;
-  margin-bottom: 60px;
+.sabores-premium-headlineSub {
+    font-size: 40px;
+    font-weight: 700;
+    color: #808080;
+    margin-bottom: 60px;
 }
-.nuestros_productos-tamaños-precios {
+.sabores-premium-tamaños-precios {
   display: flex;
   justify-content: space-around;
   align-self: center;
@@ -25,7 +25,7 @@
   padding: 30px;
   margin-top: 50px;
 }
-.nuestros_productos-tamaños-precios-black-background {
+.sabores-premium-tamaños-precios-black-background {
   width: 180px;
   height: 180px;
   border-radius: 40px;
@@ -36,7 +36,7 @@
   top: -15px;
   left: 150px;
 }
-.nuestros_productos-tamaños-precios-yellow {
+.sabores-premium-tamaños-precios-yellow {
   width: 180px;
   height: 200px;
   background-color: #fcb54e;
@@ -50,17 +50,17 @@
   flex-direction: column;
   padding: 20px 0 20px 0;
 }
-.nuestros_productos-tamaños-precios-yellow-h2 {
+.sabores-premium-tamaños-precios-yellow-h2 {
   color: white;
   font-size: 28px;
 }
-.nuestros_productos-tamaños-precios-yellow-h3 {
+.sabores-premium-tamaños-precios-yellow-h3 {
   color: white;
 }
-.nuestros_productos-tamaños-precios-yellow-h4 {
+.sabores-premium-tamaños-precios-yellow-h4 {
   font-size: 24px;
 }
-.nuestros_productos-tamaños-precios-black-background-two {
+.sabores-premium-tamaños-precios-black-background-two {
   width: 230px;
   height: 350px;
   background-color: black;
@@ -71,7 +71,7 @@
   left: -100px;
   position: relative;
 }
-.nuestros_productos-tamaños-precios-white {
+.sabores-premium-tamaños-precios-white {
   width: 180px;
   height: 200px;
   background-color: white;
@@ -87,15 +87,15 @@
   flex-direction: column;
   padding: 20px 0 20px 0;
 }
-.nuestros_productos-tamaños-precios-white-h2 {
+.sabores-premium-tamaños-precios-white-h2 {
   color: black;
   font-size: 28px;
 }
-.nuestros_productos-tamaños-precios-white-h4 {
+.sabores-premium-tamaños-precios-white-h4 {
   font-size: 24px;
   color: #D70006;
 }
-.nuestros_productos-tamaños-precios-whiteTwo {
+.sabores-premium-tamaños-precios-whiteTwo {
   width: 180px;
   height: 200px;
   background-color: white;
@@ -111,7 +111,7 @@
   flex-direction: column;
   padding: 20px 0 20px 0;
 }
-.nuestros_productos-tamaños-precios-yellow-background {
+.sabores-premium-tamaños-precios-yellow-background {
   width: 250px;
   height: 360px;
   border-radius: 50px;
@@ -121,7 +121,7 @@
   position: relative;
   background-color: #fcb54e;
 }
-.nuestros_productos-tamaños-precios-black {
+.sabores-premium-tamaños-precios-black {
   width: 180px;
   height: 200px;
   background-color: black;
@@ -136,7 +136,7 @@
   flex-direction: column;
   padding: 20px 0 20px 0;
 }
-.nuestros_productos-tamaños-precios-blackTwo {
+.sabores-premium-tamaños-precios-blackTwo {
   width: 180px;
   height: 200px;
   background-color: black;
@@ -151,26 +151,26 @@
   flex-direction: column;
   padding: 20px 0 20px 0;
 }
-.nuestros_productos-tamaños-precios-black-h2 {
+.sabores-premium-tamaños-precios-black-h2 {
   color: white;
   font-size: 28px;
   padding-left: 40px;
 }
-.nuestros_productos-tamaños-precios-black-h3 {
+.sabores-premium-tamaños-precios-black-h3 {
   color: white;
   padding-left: 0;
 }
-.nuestros_productos-tamaños-precios-black-h4 {
+.sabores-premium-tamaños-precios-black-h4 {
   font-size: 24px;
   color: #FCB54E;
 }
-.nuestros_productos-cardContainer {
+.sabores-premium-cardContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0 20px 0;
 }
-.nuestros_productos-card {
+.sabores-premium-card {
   width: 350px;
   height: 550px;
   box-shadow: 0px 5px 10px 5px rgba(240, 240, 240, 0.78);
@@ -183,23 +183,23 @@
   transition: 450ms;
   transform-origin: center left;
 }
-.nuestros_productos-card:hover ~ .nuestros_productos-card {
+.sabores-premium-card:hover ~ .sabores-premium-card {
   transform: translate3d(50px, 0, 0);
 }
-.nuestros_productos-cardContainer:hover .nuestros_productos-card {
+.sabores-premium-cardContainer:hover .sabores-premium-card {
   opacity: 0.3;
 }
-.nuestros_productos-cardContainer:hover .nuestros_productos-card:hover {
+.sabores-premium-cardContainer:hover .sabores-premium-card:hover {
   transform: scale(1.2);
   opacity: 1;
 }
-.nuestros_productos-img {
+.sabores-premium-img {
   width: 220px;
   height: 220px;
   object-fit: cover;
   border-radius: 50%;
 }
-.nuestros_productos-itemsInsideCard {
+.sabores-premium-itemsInsideCard {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -207,16 +207,16 @@
   height: 250px;
   padding: 30px;
 }
-.nuestros_productos-card-p {
+.sabores-premium-card-p {
   color: #808080;
 }
-.nuestros_productos-price {
+.sabores-premium-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-.nuestros_productos-want {
+.sabores-premium-want {
   display: flex;
   justify-content: center;
   align-items: center;
