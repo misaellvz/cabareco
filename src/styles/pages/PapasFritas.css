@@ -10,8 +10,7 @@
 .papas-fritas-aside h1 {
   font-size: 60px;
 }
-.papas-fritas-aside-hamburguerComplete {
-  width: 180px;
+.papas-fritas-aside-Complete {
   height: 60px;
   background-color: white;
   color: black;
@@ -21,16 +20,16 @@
   border-radius: 5px;
   margin: 20px;
 }
-.papas-fritas-aside-hamburguerComplete:hover {
+.papas-fritas-aside-Complete:hover {
   background-color: black;
   box-shadow: 0px 5px 15px 9px rgba(240, 240, 240, 0.78);
   color: white;
 }
-.papas-fritas-aside-hamburguerComplete:hover > .papas-fritas-aside-hamburguerComplete-circle {
+.papas-fritas-aside-Complete:hover > .papas-fritas-aside-Complete-circle {
   background-color: #fb9300;
   color: white;
 }
-.papas-fritas-aside-hamburguerComplete-circle {
+.papas-fritas-aside-Complete-circle {
   width: 30px;
   height: 30px;
   background-color: #ebe6e6;
@@ -41,12 +40,11 @@
   justify-content: center;
   align-items: center;
 }
-.papas-fritas-aside-hamburguerComplete p {
+.papas-fritas-aside-Complete p {
   font-size: 20px;
   margin: 8px;
 }
-.papas-fritas-aside-hamburguerMedium {
-  width: 180px;
+.papas-fritas-aside-Medium {
   height: 60px;
   color: black;
   box-shadow: 0px 5px 15px 9px rgba(240, 240, 240, 0.78);
@@ -55,7 +53,7 @@
   border-radius: 5px;
   margin: 20px;
 }
-.papas-fritas-aside-hamburguerMedium-circle {
+.papas-fritas-aside-Medium-circle {
   width: 30px;
   height: 30px;
   background-color: #ebe6e6;
@@ -66,21 +64,20 @@
   justify-content: center;
   align-items: center;
 }
-.papas-fritas-aside-hamburguerMedium p {
+.papas-fritas-aside-Medium p {
   font-size: 20px;
   margin: 8px;
 }
-.papas-fritas-aside-hamburguerMedium:hover {
+.papas-fritas-aside-Medium:hover {
   background-color: black;
   box-shadow: 0px 5px 15px 9px rgba(240, 240, 240, 0.78);
   color: white;
 }
-.papas-fritas-aside-hamburguerMedium:hover > .papas-fritas-aside-hamburguerMedium-circle {
+.papas-fritas-aside-Medium:hover > .papas-fritas-aside-Medium-circle {
   background-color: #fb9300;
   color: white;
 }
-.papas-fritas-aside-hamburguerSmall {
-  width: 180px;
+.papas-fritas-aside-Small {
   height: 60px;
   color: black;
   box-shadow: 0px 5px 15px 9px rgba(240, 240, 240, 0.78);
@@ -89,7 +86,7 @@
   border-radius: 5px;
   margin: 20px;
 }
-.papas-fritas-aside-hamburguerSmall-circle {
+.papas-fritas-aside-Small-circle {
   width: 30px;
   height: 30px;
   background-color: #ebe6e6;
@@ -100,16 +97,16 @@
   justify-content: center;
   align-items: center;
 }
-.papas-fritas-aside-hamburguerSmall p {
+.papas-fritas-aside-Small p {
   font-size: 20px;
   margin: 8px;
 }
-.papas-fritas-aside-hamburguerSmall:hover {
+.papas-fritas-aside-Small:hover {
   background-color: black;
   box-shadow: 0px 5px 15px 9px rgba(240, 240, 240, 0.78);
   color: white;
 }
-.papas-fritas-aside-hamburguerSmall:hover > .papas-fritas-aside-hamburguerSmall-circle {
+.papas-fritas-aside-Small:hover > .papas-fritas-aside-Small-circle {
   background-color: #fb9300;
   color: white;
 }
@@ -123,7 +120,7 @@
 }
 .papas-fritas-blackCard {
   width: 300px;
-  height: 450px;
+  height: 400px;
   background-color: black ;
   border-radius: 40px;
   transform: rotate(-31.42deg);
@@ -132,6 +129,6 @@
 .papas {
   width: 740px;
   position: absolute;
-  top: 0px;
+  top: -20px;
   right: -300px;
 }

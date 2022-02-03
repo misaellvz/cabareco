@@ -7,6 +7,7 @@ import SaboresPremium from './pages/SaboresPremium';
 import Agregados from './pages/Agregados';
 import Bebidas from './pages/Bebidas';
 import Footer from "./pages/Footer";
+import Delivery from './pages/Delivery';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Agregados/>
         <PapasFritas/>
         <Bebidas/>
+        <Delivery/>
         <Footer/>
       </div>
     </div>
