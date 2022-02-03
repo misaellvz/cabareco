@@ -5,12 +5,13 @@ import commentImgTwo from "../assets/hamburguer-removebg-preview.png"
 import "../styles/components/HeroContent.css";
 
 const HeroContent = () => {
+  const whatsappText = "!Hola! Quiero una...";
   return (
     <div className="hero_content">
       <section className="hero_section">
         <h1>Las mejores <br/> pizzas caseras</h1>
         <p>Hace tu pedido y disfruta de una <br/> riquisima pizza hecha con la mejor masa casera</p>
-        <a href="https://wa.me/595983737623">
+        <a href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer" >
           <button className="hero_section-btn">Haz tu pedido</button>
         </a>
       </section>

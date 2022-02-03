@@ -100,6 +100,10 @@
   font-size: 26px;
   font-weight: bold;
 }
+.bebidas-a {
+  text-decoration: none;
+  cursor: pointer;
+}
 .bebidas-card-span-container {
   width: 100px;
   height: 50px;
@@ -114,6 +118,12 @@
   font-size: 20px;
   font-weight: bold;
 }
+.bebidas-card-span-container:hover {
+  background-color: #fcb54e;
+}
+.bebidas-card-span-container:hover .bebidas-card-span {
+  color: #fff;
+}
 .bebidas-card-span-black-container {
   width: 100px;
   height: 50px;
@@ -127,4 +137,10 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
+}
+.bebidas-card-span-black-container:hover {
+  background-color: #fcb54e;
+}
+.bebidas-card-span--black-container:hover .bebidas-card-span-black {
+  color: #fff;
 }

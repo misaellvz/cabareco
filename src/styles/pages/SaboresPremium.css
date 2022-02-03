@@ -228,3 +228,10 @@
   font-size: 24px;
   padding: 5px;
 }
+.sabores-premium-want:hover {
+  background-color: black;
+}
+.sabores-premium-a {
+  text-decoration: none;
+  cursor: pointer;
+}

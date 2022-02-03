@@ -35,6 +35,10 @@
   width: 220px;
   height: auto;
 }
+.delivery-a {
+  text-decoration: none;
+  cursor: pointer;
+}
 .delivery-background-yellow {
   background-color: #fb9300;
   border-radius: 80px;
@@ -45,6 +49,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.delivery-background-yellow:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.delivery-background-yellow:hover .delivery-background-yellow-h2 {
+  color: #fb9300;
 }
 .delivery-background-yellow-h2 {
   font-size: 20px;

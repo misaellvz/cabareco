@@ -4,6 +4,7 @@ import pizza from "../assets/pizza.jpg";
 import margarita from "../assets/pizza-cabarecco3.jpg";
 
 const SaboresPremium = () => {
+  const whatsappText = "!Hola! Quiero una...";
   return (
     <div id="SaboresPremium" className="sabores-premium">
       <h2 className="sabores-premium-headline">Sabores Premium</h2>
@@ -51,7 +52,11 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Queso muzzarella, pepperoni, oregano, masa y salsa de la casa</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
+              </a>
             </div>
           </div>
         </div>
@@ -63,7 +68,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masa y salsa de la casa, muzzarella roquefort, parmesano, catupiry y orégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>
@@ -75,7 +82,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masa y salsa de la casa, muzzarella, catupiry y orégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>
@@ -89,7 +98,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masa y salsa de la casa, muzzarella, panceta, queso cheddar y orégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>
@@ -101,7 +112,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masay salsa de la casa, muzzarella, chorizos picantes, salsa picante, aceitunas y orégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>
@@ -113,7 +126,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masa y salsa de la casa, muzzarella, morrón, cebolla, tomate, aceituna y orégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>
@@ -127,7 +142,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masa y salsa de la casa, muzzarella, pollo, catupiry y orégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>
@@ -139,7 +156,9 @@ const SaboresPremium = () => {
             <p className="sabores-premium-card-p">Masa y salsa de la casa, muzzarella, cebolla, panceta y arégano.</p>
             <div className="sabores-premium-price">
               <h2>Haz tu pedido</h2>
-              <div className="sabores-premium-want">¡Quiero!</div>
+              <a className="sabores-premium-a" href={`https://wa.me/595961746430?text=${encodeURIComponent(whatsappText)}`} target="_blank" rel="noreferrer">
+                <div className="sabores-premium-want">¡Quiero!</div>
+              </a>
             </div>
           </div>
         </div>

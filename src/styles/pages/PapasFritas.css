@@ -126,6 +126,10 @@
   transform: rotate(-31.42deg);
   position: relative;
 }
+.papas-a {
+  cursor: pointer;
+  text-decoration: none;
+}
 .papas {
   width: 740px;
   position: absolute;
